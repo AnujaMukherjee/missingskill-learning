@@ -1,10 +1,9 @@
 ## Introduction of Git 
 
 ### Git -> Version Control System 
-<p> *  Git and GitHub are not the same thing. Git is the main software
-which we needs to  installed locally in user machine. </p>
-<p> *  GitHub, GitLab, etc. are all online platforms whew we can put our local git intialized project so uer team member can collaborate it 
-</p>
+<p> * Git Is a version control .It is a software use to tack the local file  </p>
+<p>*  git and gitlub are Remote code repository where all other devsloper push there git initiallized local repo . And with the help of github and git lab devlopers can work collaborately </p>
+ </p> * git basically work on 3 stages first step is working stage where we can locally modified our codes after that we use "git add" so aur codes goses from working area to stagging area . In stagging area final commit done last step is push where we push our folder to remote repo </pgit>
 <p> * if we wants to gets any update or if our team menbers  change something on there local repository and push it to remote repository now next dayt if i am working on the same project first thing i have to do that is   git clone so that all the latest commit and updates  are fetch to my local repo </p>
 <p> * Git is a <b>Distributed Version Control System </b>
 which basically means that Git helps us when we mess up our code and
