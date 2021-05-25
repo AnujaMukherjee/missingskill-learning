@@ -2,7 +2,7 @@
 
 ### Git -> Version Control System 
 <p> * Git Is a version control .It is a software use to tack the local file  </p>
-<p>*  git and gitlub are Remote code repository where all other devsloper push there git initiallized local repo . And with the help of github and git lab devlopers can work collaborately </p>
+<p>*  gitlab and gitlub are Remote code repository where all other devsloper push there git initiallized local repo . And with the help of github and git lab devlopers can work collaborately </p>
  </p> * git basically work on 3 stages first step is working stage where we can locally modified our codes after that we use "git add" so aur codes goses from working area to stagging area . In stagging area final commit done last step is push where we push our folder to remote repo </pgit>
 <p> * if we wants to gets any update or if our team menbers  change something on there local repository and push it to remote repository now next dayt if i am working on the same project first thing i have to do that is   git clone so that all the latest commit and updates  are fetch to my local repo </p>
 <p> * Git is a <b>Distributed Version Control System </b>
