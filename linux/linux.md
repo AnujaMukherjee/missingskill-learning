@@ -74,13 +74,11 @@ more frequently used this command.
 - cd -> Change Directory.
 - ping ->This is a network command to check the internet connectivity of my machine
 - Ifconfig -> In windows we use ipconfig to get all the details about my internet connection like my IP, Subnet Mask, Default Gateway, DNS,
- - wget ->: This command just blew my mind when I first learned it in the missing skill boot camp
+ - wget ->: command line browser 
  - which -> It shows us the path where our software is installed.
- - mkdir 2020/09 2021/01 –p:
+ - mkdir 2020/14 2021/01 –p:
  this command will create two directories named
-“2020” and “2021” in the CWD. And, inside 2020 folder, it will
-create a subfolder named “09”, and inside 2021 folder, it will
-create a subfolder named “01”.
+ inside 2020 folder, it willncreate a subfolder named "14", and inside 2021 folder, it will create a subfolder named “01”.
 - top :-> display all the running application and system utilization .
 - tail :- display the content of conti nuously getting updated 
 ## Advance Linux commands:- 
@@ -88,11 +86,10 @@ create a subfolder named “01”.
 
 - lS -l :- if we want to get file details then this command is used.
 - lS-l-h:- if we want to get file details and also if we want human readability then we use this command.
- - ls-l--t:- if we want to create a file in descending order  then we use this command.it shows all contents in long format only but short them according to MRCF(Most Recently Created First) based on date and time value .
- - lS-l-r:-if we want to create a file in ascending order then we use this command , it shows the user all content in short format only but sorts them according to LRCF order (Least Recently Created First). Based on the time value 
+ - ls-l--t:- if we want to create a file in descending order  then we use this command.
+ - lS-l-r:-if we want to create a file in ascending order then we use this command 
 - ls-a:- it will show us all the hidden files or to find all the hidden files we used.
 - man -ls :- It will show all the files in detail.
-- ls-l-h:- shows all content in CWD in long format but in human readable form, which simply means the sizes are displayed in KB rather than Bytes.
  - Ls-l-f :- shows all content in long format but there is  a “/” at the end of every directory name which makes it easy to see which row is a file and which one is a directory.
  
  |cd|
@@ -113,20 +110,8 @@ create a subfolder named “01”.
 
    - <p> cp-rf  Anuja Rima Titire Mousumi
 Now the above command will copy the folders Anuja, Rima, Titire to Mousumi folder.This happened because of the
-help of the –rf flags. The –r flag is for recursively applying the
-cp command over and over again for each file within each of
-the three folders that were to be copied. –r is needed because we
-already know cp copies only one file at a time, hence
-recursively applying cp eventually ends up copying entire
-folders. Now –f flag is for forcefully copying the files, which
-means while –r is doing the task of executing the cp command
-repeatedly, if anytime during the process some prompt came up
-asking stuffs like “are you sure you want copy?” or “some xyz
-needs storage access control, do you want to allow it?” etc. kind
-of stuffs then –f will always says yes to all such prompts so that
-the copying process succeeds no matter what.</p> 
-
--  cp f1 f2 -> copies filefrom sre to dst (rename) 
+help of the –rf flags. 
+-   cp f1 f2 -> copies filefrom sre to dst (rename) 
 - cp -rf f1 f3 ->  copies file / directory from src to dst .(rename)
  - cp -rf f1 ~/ -> copies file /  directory from current location to home directiry with same name .
  - cp -rf f1 ~/newf1 -> copies file / directory from current location to home directory with new f1 .
