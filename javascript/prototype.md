@@ -46,14 +46,14 @@ Person.prototype.getAge = function () {
     return this.age;
 }
 let anujaObject = new Person("Anuja", "Mukherjee", 23);
-let RimaObject = new Person("Rima", "Shaw", 22);
+let RimaObject = new Person("Rima","Mukherjee", 22);
 
 console.log(anujaObject.getName()) // Anuja Mukherjee
 console.log(anujaObject.getAge()) // 23
 console.log(anujaObject.skill) // JavaScript
-console.log(jackyObject.getName()) // Jacky Shaw
-console.log(jackyObject.getAge()) // 22
-console.log(jackyObject.skill) // JavaScript
+console.log(RimaObject.getName()) // Rima Mukherjee
+console.log(RimaObject.getAge()) // 22
+console.log(RimaObject.skill) // JavaScript
 
 //Another Example
 function Calculator(initial) {
@@ -131,7 +131,7 @@ console.log(anujaObject.post); // Full Stack Web Developer
 // this post is also inherit from person  class it will first check that in person class it self is there any key value pair present in post name if not then it's take from  proto:{} prototype 
 //rimaObject skill ar post ta inherit korlo from Person
 console.log(rimaObject.skill); // JavaScript because It inherits from Person ka (prototype), and there is no  skill key value pair inside theperson class so it's take prototype value 
-console.log(jackyObject.post); // Full Stack Web Developer 
+console.log(rimaObject.post); // Full Stack Web Developer 
 // this post is also inherit from person  class it will first check that in person class it self is there any key value pair present in post name if not then it's take from  proto:{} prototype
 
 
