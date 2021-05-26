@@ -1,9 +1,6 @@
 ## Copy By reference :-
  </p>In copy by reference specially object amd array we pass  , and we pass there reference so if any changes happen it will effect the whole code .</p>
  
- ## Some pictorial Representation of Copy By Reference :-
- <img src="cpr.jpg">
- 
 |<B> FEW EXAMPLES OF CPR</b>|
 |---|
 ```JavaScript
@@ -107,6 +104,8 @@ console.log(1,stack)
  es :[5,6,7,"Hello","world",10]
  } */
  ```
+
+  ## Some pictorial Representation of Copy By Reference :-
 <img src="cpr 2_1.jpg" >
 <img src="cpr 2_2.jpg" >
 <img src="cpr.jpg" >

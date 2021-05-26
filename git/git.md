@@ -84,5 +84,8 @@ messed up by me.</p>
  - <b> git push :- </b> push the commit history to remote origin server 
       
       - git push origin <master(branchname)>
+## CVS
+<img src="cvs.jpg" >
 
-  
+## DVS
+<img src="dvs.jpg" >  
