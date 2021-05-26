@@ -1,4 +1,4 @@
-## scop
+## scope
 ### scope are three thyps functional scope , lexical scope , Global scope 
 ### visual representation of call stack :- 
 
@@ -257,25 +257,7 @@ console.log (b) //40
 ## Global scope :-
 A variable declared outside a function, becomes GLOBAL.
 
-A global variable has global scope: All scripts and functions on a web page can access it. 
- ``` javascript
- Example 1:-
-
-    var userName = "Bill";
-
-        function modifyUserName() {
-                userName = "Steve";
-            };
-
-        function showUserName() {
-                alert(userName);
-            };
-
-        alert(userName); // display Bill
-        
-        modifyUserName();
-        showUserName();// display Steve
-```
+ 
 
 
 
