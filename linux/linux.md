@@ -1,14 +1,13 @@
 # Linux
 ## History of Linux
-- Linux was invented in 1991  by Linus Torvel. 
+- Linux was invented in 1991  by Linus Torvalds. 
 - Linux is a kernel it is the interaction between hardware and software
 - Linux Licence is GNU(General public licence)/GPL
 
     -  Current version is 5 it is stable version
 
     - Long-Term Support (LTS) release is normally associated with an application or an operating system for which you will get security, maintenance and (sometimes) feature updates for a longer duration of time. ... But, you will get the necessary bug fixes and security fixes in the updates of a Long Term Support
-- After AT&T had dropped out of the Multics project, the Unix operating system was conceived and implemented by Ken Thompson and Dennis Ritchie (both of AT&T Bell Laboratories) in 1969 and first released in 1970. Later they rewrote it in a new programming language, C, to make it portable. The availability and portability of Unix caused it to be widely adopted, copied and modified by academic institutions and businesses.
-
+- The history of Linux, is not less than a story. It began when UNIX was launched with a heafty price tag. Everybody wanted to use UNIX but the cost was too much to afford. Then as a revolt a person named Richard Stallman started the Free Software Foundation(FSF) with the mission of making a totally free UNIX like OS. He did end up with what we call GNU-OS but, the kernel he created (HURD) was not efficient enough. At the same time, somewhere, a person named Linus Torvalds was also making a UNIX like kernel. Linus Torvalds made Linux kernel. Both Richard and Linus met and, obviously HURD was replaced with Linux to get the GNU-Linux OS. Hence Richard Stallman and Linux Torvalds are called founding fathers of Linux.
 ## Popular Operating System:-
    
 - GNU/linux
