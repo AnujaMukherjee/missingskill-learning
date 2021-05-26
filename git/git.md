@@ -1,15 +1,13 @@
 ## Introduction of Git 
 
 ### Git -> Version Control System 
-<p> * Git Is a version control .It is a software use to tack the local file  </p>
-<p>*  gitlab and gitlub are Remote code repository where all other devsloper push there git initiallized local repo . And with the help of github and git lab devlopers can work collaborately </p>
- </p> * git basically work on 3 stages first step is working stage where we can locally modified our codes after that we use "git add" so aur codes goses from working area to stagging area . In stagging area final commit done last step is push where we push our folder to remote repo </pgit>
-<p> * if we wants to gets any update or if our team menbers  change something on there local repository and push it to remote repository now next dayt if i am working on the same project first thing i have to do that is   git clone so that all the latest commit and updates  are fetch to my local repo </p>
+<p> * Git Is a version control .It is a software use to track the local file.  </p>
+<p>*  Gitlab and Github are Remote code repository where all other developer push there git initiallized local repo . And with the help of github and git lab developers can work collaboratively. </p>
+ </p> * git basically work on 3 stages first step is working stage where we can locally modified our codes, after that we use "git add" so our code goes from working area to stagging area . From stagging area we do final commit, which is the last step and it puts a snapshot of whatever was there in the staging area as a permanent commit/version. Hence the name Version Control. Then obviously we can do "git push origin master to push all our commits into the remote repo present in GitHub or GitLab. </p>
+<p> * if we wants to gets any update or if our team menbers  change something on there local repository and push it to remote repository now next dayt if I am working on the same project first thing I have to do that is git clone so that all the latest commit and updates  are fetch to my local repo </p>
 <p> * Git is a <b>Distributed Version Control System </b>
-which basically means that Git helps us when we mess up our code and
-forget what needs to be undone to restore the code as it was, before getting
-messed up by me.</p>
- <p> * git bascially  trackes of the histrory and current  changes
+which basically helps us to restore our mistakes by allowing us to checkout to any of previous commits, anytime we want.</p>
+ <p> * Furthermore, git helps us to work with multiple people, on the same file on the same time, which is a superpower when it comes to developing something. </p>
         
 
 
@@ -17,31 +15,9 @@ messed up by me.</p>
 
 |Centralized Version Control|Distributed Version Control|
 |---|---|
-| in CVS  all the projects , files and directory  are in remote server so the time of cloning we can clone only that files  which we are working entire project can't clone and merge to our remote server only the working file will clone| in DVS entire project will clone  from  remote server to local server no matter if we are working on that files or not it will clone entire project  so the benefits is that we have other source code  in our local repo and check the compatibilitys |
-| suppose in online or in remote repo  there is a flipcart project  inside that we have thousand js file , html files among this "A" is working on login.js file so that time of cloning if it is CVS then  in local repo login.js will clone | suppose in online or in remote repo  there is a flipcart project  inside that we have thousand js file , html files among this "A" is working on login.js file so that time of cloning if it is DVS then  in local repo entire flipcart project will clone "A" user gets the other js like  tanscation.js , product.js etc|
-| in CVS if client "A" and client "B" both are working on same js file , both are working on "product.js" "A" and "B" both makes some changes  and push them into remote repo  now problem which create it will show the changes of the last person who push in remote  if "B" push last then "B" changes will show  "A" change will ommite  it is happen because of rase condition | in DVS if client "A" and client "B" both are working on same js file , both are working on "product.js" "A" and "B" both makes some changes  and push them into remote repo  now DVS is more Advance suppose "A" client push first  and after fraction of second if "B" wants to push this if will shows us warining to pull first so in our local repo all the changes of previos clients will come first now at the time of merge there is some confilt which asked "B" that do you want the income change if B select yes then "A" change or "A" code will be there and "B" code added after that we can push |
-|if CVS  Remote server down developes can't work | in DVS if remote server slow developer can work as developer have entire source code in local system
-
-
----
-## Basic Git commands
- - <b> git init -> </b> create a new git repository
-        
-    -  $ mkdir git _lesson 
-            $ cd git_lesson
-            $ git init // git intialization 
-
-- <b> git status :- </b>Display the status of working directory , with the help of this commands we can fiind the changes, if any change happen in local repository where we initiallized we can track this with the help of git status .Display state of working and staging area  .
-           
-- <b> git add :- </b>  Adds the change to file to staging area for commit 
-       
-  -   git add abc // changes are tracked but it should be stored in local repository , to do so commit is done 
-
-- <b> git commit :- </b>  All changes are recorded and store safely to local repository .
-
-  -  $ git commit -m " initial commit " // -m is message tag and " initial commit" is   display message 
-
-        
+| In CVS, all the projects , files and directories, are in remote server so in the time of cloning we can clone only that files  which we want to work upon instead of cloning the entire project. So, none of the developer working on that remote repo actually has the entire project(with all its versions) in their local machine. | In DVS, entire project(with all its versions) will be cloned into the local machine of each  of the developers working in that remote repo regardless of whether or not a given developer will ever need to open the files he is not working with. So the benefit is that, each developer gets the full copy of the project.|
+| Suppose in remote repo  there is a flipkart project  inside that we have thousands of js files , html files among this "A" is working on login.js file so that time of cloning if it is CVS then  in local repo login.js will clone | suppose  in remote repo  there is a flipkart project  inside that we have thousand js files , html files among this "A" is working on login.js file so that time of cloning if it is DVS then  in local repo entire flipkart project will clsone "A" user gets the other js like  tanscation.js , product.js etc|
+| In CVS if developer "A" and developer "B" both are working on same js file , both are working on "product.js" "A" and "B" both makes some changes  and push them into remote repo. Now, the problem which arises is, that it will show the changes of the last person who pushed in remote repo. If "B" pushed last, then B's changes will overwrite the changes pushed by "A" on the same file, thus we lose on the modifications done by "A", becasue of the RACE CONDITION.| In DVS, if developer "A" and developer "B" both are working on same js file let's say, "product.js" and "A" and "B" both makes their own  contribution to the same "product.js" file and when both A and B try to push their own version of the product.js file to the remote repo, then the beauty of DVS is such that, it does not allow that to happen. How? => Let's say first A pushed, then if B tries to push, B will get an error saying "Cant Push, because remote is ahead by one commit, so you need to take pull first". And when B takes pull, then he gets A's code in his local machine. Now he can then solve the merge conflits to finally end with a code which has the best parts of both A and B. 
 - <b>git branch :- </b> <p> * git branch commands is used to create a branching .</p>
   <p> * It will show us that which branch  currently we are . basically it will shows us default branch name which is 'master' branch where last commit is done .</p> 
   <p> * branch pointer pints to latest commit 
